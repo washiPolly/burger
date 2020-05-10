@@ -1,7 +1,29 @@
+html{
+  background: url("../img/burger.png") no-repeat center fixed;     
+  background-size: cover;
+}
+
+h1,h2{
+  text-align: center;
+}
+
+.opacity{
+  margin: 50px;
+  background: rgb(255,255,255, 0.4);
+  border: 1px solid black;
+  /* opacity: 0.6; */
+}
+
+.form-group{
+  text-align: center;
+}
+
+
+
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+  width: auto;
 }
 
 .label {
