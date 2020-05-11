@@ -1,17 +1,42 @@
 html{
-  background: url("../img/burger.png") no-repeat center fixed;     
-  background-size: cover;
+  background: url("../img/cuteBurgerSmall.png") no-repeat center top fixed;     
+  /* background-size: cover; */
+  font-family: 'Roboto Slab', serif;
+
+}
+
+body {
+  background-color: #b7efcd;
 }
 
 h1,h2{
   text-align: center;
 }
 
-.opacity{
+.container{
+  display: block;
+  float: right;
+}
+
+.opacity-devour{
   margin: 50px;
-  background: rgb(255,255,255, 0.4);
+  background: rgb(255,201,14, 0.4);
+  border: 1px solid black;
+}
+
+.opacity-devoured{
+  margin: 50px;
+  background: rgb(255,201,14, 0.4);
+  border: 1px solid black; 
+}
+
+.addBurger{
+  margin: 50px;
+  background: rgb(255,201,14, 0.4);
   border: 1px solid black;
   /* opacity: 0.6; */
+  float: left;
+  width: 32%;
 }
 
 .form-group{
@@ -22,7 +47,7 @@ h1,h2{
 
 li {
   padding: 5px;
-  margin: 5px;
+  margin: 15px;
   width: auto;
 }
 
@@ -33,9 +58,35 @@ li {
 .create-update-form {
   padding: 5px;
   margin: 5px;
-  background: aqua;
+ 
 }
 
 .form-group {
-  margin-bottom: 5px;
+  margin: 15px;
 }
+
+
+@media only screen and (max-width: 1280px) {
+  body {
+    background-color: lightblue;
+  }
+
+.addBurger{
+    position: relative;
+    margin: 45px;
+  } 
+  
+  .opacity-devour, .opacity-devoured{
+    position: relative;
+    display: block;
+    top: 250px;
+    left: -450px;
+    margin: 25px;
+  }
+  
+  /* .container{
+    display: block;
+    
+  } */
+    
+  } 
