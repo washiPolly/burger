@@ -6,7 +6,7 @@ html{
 }
 
 body {
-  background-color: gold;
+  background-color: rgb(247, 168, 70);
 }
 
 h1,h2{
@@ -66,10 +66,16 @@ li {
   margin: 15px;
 }
 
+button{
+  background-color: rgb(190, 211, 78);
+    border-radius: 10%;
+    border: 1px solid rgb(142, 187, 73);
+    font-family: 'Roboto Slab', serif;
+}
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1200px) {
   body {
-    background-color: lightblue;
+    background-color: rgb(190, 211, 78);
   }
 
 .addBurger{
