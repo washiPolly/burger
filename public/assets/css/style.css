@@ -6,7 +6,7 @@ html{
 }
 
 body {
-  background-color: #b7efcd;
+  background-color: gold;
 }
 
 h1,h2{
@@ -26,7 +26,8 @@ h1,h2{
 
 .opacity-devoured{
   margin: 50px;
-  background: rgb(255,201,14, 0.4);
+  color: rgba(61, 50, 7, 0.4);
+  background: rgb(219, 208, 169);
   border: 1px solid black; 
 }
 
@@ -74,14 +75,16 @@ li {
 .addBurger{
     position: relative;
     margin: 45px;
+    font-size: 12px;
   } 
   
   .opacity-devour, .opacity-devoured{
     position: relative;
     display: block;
     top: 250px;
-    left: -450px;
+    left: -550px;
     margin: 25px;
+    font-size: 12px;
   }
   
   /* .container{
