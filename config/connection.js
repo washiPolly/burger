@@ -15,6 +15,7 @@ if (process.env.JAWSDB_URL) {
   password: "hackthe planet",
   database: "todoagain_db"
 });
+};
 
 // Make connection.
 connection.connect(function(err) {
